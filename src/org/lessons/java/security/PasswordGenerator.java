@@ -37,7 +37,7 @@ public class PasswordGenerator {
 		
 		System.out.print("La tua età: ");
 		while (sc.hasNextInt()) {
-            System.out.print("Inserisci un valore alfabetico. La tua età: ");
+            System.out.print("Inserisci un valore corretto. La tua età: ");
             sc.next();
         }
 		String age = sc.nextLine();
